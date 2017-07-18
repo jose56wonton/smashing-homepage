@@ -1,3 +1,52 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 *{
     box-sizing: border-box;
 }
@@ -64,21 +113,51 @@ body{
     width: 60%;
     background-color: #2F2D2E;
     margin-bottom: 5px;
+    line-height: 250%;
+    text-align: left;
+}
+.col-2-title p{
+    color: white;
+    
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 .col-2-paragraph{
     height: 75%;
     width: 50%;
     background-color: #8C8788;
     margin-bottom: 5px;
+    line-height: 210%;
+    text-align: left;
+}
+.col-2-paragraph p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
 }
 
 /*  col-3 stuff  */
 .title{
+    
     width: 90%;
     margin: 1 auto;
     height: 70px;
     background-color: #181717;
     margin-bottom:10px;
+    line-height: 35px;;
+    text-align: left;
+}
+.title p{
+    color: white;    
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Zilla Slab', serif;
+    font-size: 29px;
+    padding: 0 10px;
 }
 .author{
     width: 30%;
