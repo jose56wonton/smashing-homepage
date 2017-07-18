@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 920px;
+    width: 100%;
+
+}
+.col-1{
+    height: 400px;
+    width: 13%;
+    position: relative;
+    top: 80px;
+    float: left;
+    background-color: #E8E1E2;
+    margin: 3px;
+}
+.col-2{
+    height: 830px;
+    width: 19%;
+    position: relative;
+    top: 80px;
+    float: left;
+    background-color: #E8E1E2;
+    margin: 3px;
+}
+.col-3{
+    height: 830px;
+    width:42%;
+    position: relative;
+    top: 80px;
+    float: left;
+    background-color: #E8E1E2;
+    margin: 3px;
+}
+.col-4{
+    height: 910px;
+    width: 23%;
+    position: relative;
+    float: left;
+    background-color: #E8E1E2;
+    margin: 3px;
+    
+}
+
+
+/*  col-1 stuff  */
+.nav{
+    height: 16%;
+    width: 90%;
+    margin: 2px auto;
+
+    background-color: #BAB4B5;
+}
+/*  col-2 stuff  */
+.section{
+    height: 25%;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.col-2-title{
+    height: 19%;
+    width: 60%;
+    background-color: #2F2D2E;
+    margin-bottom: 5px;
+}
+.col-2-paragraph{
+    height: 75%;
+    width: 50%;
+    background-color: #8C8788;
+    margin-bottom: 5px;
+}
+
+/*  col-3 stuff  */
+.title{
+    width: 90%;
+    margin: 1 auto;
+    height: 70px;
+    background-color: #181717;
+    margin-bottom:10px;
+}
+.author{
+    width: 30%;
+    margin-left:5%;
+    height: 45px;
+    background-color: #747171;
+    margin-bottom:45px;
+}
+.about{
+    width: 90%;
+    margin: 1 auto;
+    height: 45px;
+    background-color: #747171;
+    margin-bottom: 66px;
+}
+.paragraph1{
+    width: 90%;
+    margin: 1 auto;
+    height: 100px;
+    background-color: #5D5A5B;
+    margin-bottom:45px;
+}
+.paragraph2{
+    width: 90%;
+    margin: 1 auto;
+    height: 90px;
+    background-color: #8C8788;
+    margin-bottom:45px;
+}
+.diagram{
+    width: 90%;
+    margin: 1 auto;
+    height: 120px;
+    background-color: #464444;
+    margin-bottom:55px;
+
+}
+.button{
+    width: 30%;
+    margin-left: 5%;
+    height: 50px;
+    background-color: #181717;
+    margin-bottom:45px;
+
+}
+/*  col-4 stuff  */
+
+.other1{
+    width: 90%;
+    height: 38%;
+    margin: 2px auto;
+    background-color: #747171;
+
+}
+.other2{
+    width: 90%;
+    height: 38%;
+    margin: 2px auto;
+    background-color: #747171;
+
+}
+.other3{
+    width: 90%;
+    height: 19%;
+    margin: 2px auto;
+    background-color: #747171;
+
+}
